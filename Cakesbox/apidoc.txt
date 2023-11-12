@@ -1,0 +1,32 @@
+registration
+========================
+
+url=http://127.0.0.1:8000/api/register/
+method=post
+body:{"usernsme","password","email","phone","address"}
+authorization=nill
+
+2)occation list api 
+=========================
+
+url=http://127.0.0.1:8000/api/occatioṇ/
+method=get
+body:nill
+authorization=nill
+
+3)occation detail
+=========================
+
+url=http://127.0.0.1:8000/api/occatioṇ/(varient_id)/
+method=get
+
+2)add to cart api 
+=========================
+
+url=http://127.0.0.1:8000/api/occatioṇ/(varient_id)/add_cart/
+method=post
+body:nill
+authorization=username,password
+
+
+
